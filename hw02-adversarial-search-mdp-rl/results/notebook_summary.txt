@@ -1,0 +1,25 @@
+Nonterminal transition Frobenius error: 0.6864
+Reward error on observed transitions: 0.0000
+
+Episode 100: Reward = 15.0, Epsilon = 0.835
+Episode 200: Reward = 26.0, Epsilon = 0.697
+Episode 300: Reward = 17.0, Epsilon = 0.582
+Episode 400: Reward = 161.0, Epsilon = 0.486
+Episode 500: Reward = 19.0, Epsilon = 0.406
+Episode 600: Reward = 157.0, Epsilon = 0.339
+Episode 700: Reward = 213.0, Epsilon = 0.283
+Episode 800: Reward = 46.0, Epsilon = 0.237
+Episode 900: Reward = 178.0, Epsilon = 0.198
+Episode 1000: Reward = 44.0, Epsilon = 0.165
+Episode 1100: Reward = 322.0, Epsilon = 0.138
+Episode 1200: Reward = 500.0, Epsilon = 0.115
+Episode 1300: Reward = 500.0, Epsilon = 0.096
+Episode 1400: Reward = 123.0, Epsilon = 0.080
+Episode 1500: Reward = 68.0, Epsilon = 0.067
+Episode 1600: Reward = 500.0, Epsilon = 0.056
+Episode 1700: Reward = 500.0, Epsilon = 0.047
+Episode 1800: Reward = 500.0, Epsilon = 0.039
+Episode 1900: Reward = 500.0, Epsilon = 0.033
+Episode 2000: Reward = 500.0, Epsilon = 0.027
+
+{'episodes': 100, 'mean_reward': 500.0, 'std_reward': 0.0, 'min_reward': 500.0, 'max_reward': 500.0, 'visited_states': 112, 'mc_q_rmse_visited_states': 22.398103924054467}

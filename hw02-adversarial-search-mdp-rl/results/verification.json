@@ -1,0 +1,21 @@
+{
+  "checks_passed": 12,
+  "checks": [
+    "minimax and alpha-beta agree at depth 3",
+    "search preserves input",
+    "blocked agent returns pass",
+    "pass rotates card and preserves board",
+    "terminal win has dominant score",
+    "all transition rows sum to one",
+    "Bellman residual within tolerance",
+    "capture states have zero continuation value",
+    "sampled rewards agree with analytic rewards",
+    "sampled transition RMSE below 0.01",
+    "terminal update",
+    "truncation ends episode and bootstraps"
+  ],
+  "transition_rmse": 0.004178351070098267,
+  "transition_frobenius_error": 0.6865731402806011,
+  "observed_reward_error": 0.0,
+  "bellman_residual": 8.130815203344355e-07
+}

@@ -1,0 +1,9 @@
+{
+  "episodes": 100,
+  "mean_reward": 500.0,
+  "std_reward": 0.0,
+  "min_reward": 500.0,
+  "max_reward": 500.0,
+  "visited_states": 112,
+  "mc_q_rmse_visited_states": 22.398103924054467
+}

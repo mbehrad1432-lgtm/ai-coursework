@@ -1,0 +1,46 @@
+{
+  "exact_grade": [
+    0.447,
+    0.27140000000000003,
+    0.28159999999999996
+  ],
+  "exact_intelligence_given_letter0": [
+    0.7881341648407213,
+    0.2118658351592786
+  ],
+  "elimination_order": [
+    "Difficulty",
+    "Letter",
+    "Grade",
+    "Intelligence",
+    "SAT"
+  ],
+  "sampling": {
+    "forward_grade": [
+      0.4377,
+      0.2741,
+      0.2882
+    ],
+    "gibbs_grade": [
+      0.4624,
+      0.2677,
+      0.2699
+    ],
+    "likelihood_weighting_intelligence_given_letter0": [
+      0.7938560493124046,
+      0.2061439506875924
+    ],
+    "rejection_intelligence_given_letter0": [
+      0.7878,
+      0.2122
+    ]
+  },
+  "particle_filter": {
+    "seed": 42,
+    "steps": 200,
+    "particles": 2000,
+    "initial_error": 2.847297016433192,
+    "final_error": 0.1553888621797503,
+    "position_rmse": 1.2752155870879704
+  }
+}

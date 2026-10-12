@@ -1,0 +1,23 @@
+{
+  "checks_passed": 16,
+  "checks": [
+    "CPDs are valid",
+    "collider closed without evidence",
+    "collider opened by descendant evidence",
+    "joint distribution normalizes",
+    "grade inference matches exhaustive enumeration",
+    "conditional inference matches enumeration",
+    "induced graph retains original moral edges",
+    "induced graph agrees with pgmpy",
+    "initial particles occupy free cells",
+    "robot sensor returns scalar",
+    "Gaussian weight maximized at matching measurement",
+    "movement rejects outside maze",
+    "zero-weight sampler fails explicitly",
+    "weighted sampler tracks mass",
+    "seed reproduces simulation history",
+    "simulation errors and ESS are finite"
+  ],
+  "joint_mass": 1.0,
+  "weighted_sampler_high_mass_frequency": 0.9015
+}

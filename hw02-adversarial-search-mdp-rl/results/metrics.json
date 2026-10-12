@@ -1,0 +1,53 @@
+{
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "matplotlib": "3.10.8",
+    "gymnasium": "1.2.3",
+    "networkx": "3.5"
+  },
+  "execution": {
+    "method": "sequential Python cell execution",
+    "code_cells": 22,
+    "figures": 1
+  },
+  "onitama": {
+    "depth": 4,
+    "minimax_nodes": 747,
+    "alphabeta_nodes": 120,
+    "minimax_move": [
+      4,
+      1,
+      2,
+      1
+    ],
+    "alphabeta_move": [
+      4,
+      1,
+      2,
+      1
+    ],
+    "demo_winner": 1,
+    "demo_turns": 23
+  },
+  "mdp": {
+    "sampling_episodes": 5000,
+    "transition_frobenius_error": 0.9611232709682702,
+    "max_nonterminal_row_sum_error": 2.220446049250313e-16,
+    "reward_error_on_observed_transitions": 0.0,
+    "value_iteration_iterations": 68,
+    "bellman_residual": 8.130815203344355e-07
+  },
+  "rl": {
+    "episodes": 200,
+    "mean_reward": 500.0,
+    "std_reward": 0.0,
+    "min_reward": 500.0,
+    "max_reward": 500.0,
+    "visited_discrete_states": 104,
+    "value_estimate_rmse": 28.827039925906167,
+    "training_episodes": 2000,
+    "final_100_training_mean": 500.0,
+    "video_reward": 500.0
+  }
+}

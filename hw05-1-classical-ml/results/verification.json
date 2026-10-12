@@ -1,0 +1,21 @@
+{
+  "checks_passed": 16,
+  "checks": [
+    "linear GD agrees with least squares",
+    "linear prediction column shape",
+    "MSE handles mixed vector and column targets",
+    "constant perfect R2",
+    "constant imperfect R2",
+    "stable sigmoid at extreme logits",
+    "logistic learns separable example",
+    "precision zero denominator",
+    "recall zero denominator",
+    "confusion matrix includes prediction-only classes",
+    "tree supports noncontiguous class labels",
+    "constant-feature tree chooses majority leaf",
+    "split is disjoint and complete",
+    "split preserves feature target alignment",
+    "split seed reproduces arrays",
+    "moons generator shape and balance"
+  ]
+}

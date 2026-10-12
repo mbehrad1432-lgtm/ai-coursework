@@ -1,0 +1,110 @@
+{
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "matplotlib": "3.10.8"
+  },
+  "execution": {
+    "method": "sequential Python cell execution",
+    "code_cells": 24,
+    "figures": 8
+  },
+  "maze": [
+    {
+      "algorithm": "DFS",
+      "moves": 112,
+      "expanded_nodes": 205,
+      "reached_goal": true
+    },
+    {
+      "algorithm": "BFS",
+      "moves": 38,
+      "expanded_nodes": 161,
+      "reached_goal": true
+    },
+    {
+      "algorithm": "A*",
+      "moves": 38,
+      "expanded_nodes": 55,
+      "reached_goal": true
+    }
+  ],
+  "randomized_maze": {
+    "successes": 51,
+    "runs": 100,
+    "seeds": [
+      0,
+      99
+    ],
+    "attempts_per_run": 20,
+    "p": 0.2
+  },
+  "one_dimensional": {
+    "reference": {
+      "x": 1.5455200000000002,
+      "f_x": -1.3624007391034767
+    },
+    "runs": [
+      {
+        "run": 1,
+        "x": 1.550869623057177,
+        "f_x": -1.3622634610392712
+      },
+      {
+        "run": 2,
+        "x": 1.5549530170437356,
+        "f_x": -1.361974111909261
+      },
+      {
+        "run": 3,
+        "x": 1.5509242403843473,
+        "f_x": -1.3622606455180768
+      },
+      {
+        "run": 4,
+        "x": 1.5419755291821802,
+        "f_x": -1.3623407659960554
+      },
+      {
+        "run": 5,
+        "x": 1.5585895350138044,
+        "f_x": -1.361581821898982
+      },
+      {
+        "run": 6,
+        "x": 1.5411010559870388,
+        "f_x": -1.3623074824370267
+      },
+      {
+        "run": 7,
+        "x": 1.5612833074004027,
+        "f_x": -1.361209434108979
+      },
+      {
+        "run": 8,
+        "x": 1.5309166138278254,
+        "f_x": -1.361381696820717
+      },
+      {
+        "run": 9,
+        "x": 1.5331879598845106,
+        "f_x": -1.3616739729543317
+      },
+      {
+        "run": 10,
+        "x": 1.5613205067593239,
+        "f_x": -1.3612038042493566
+      }
+    ]
+  },
+  "tsp": {
+    "seed": 42,
+    "cities": 51,
+    "generations": 200,
+    "initial_best_distance": 1332.1729728499463,
+    "final_best_distance": 518.524917631453,
+    "target": 450.0,
+    "target_reached": false,
+    "improvement_percent": 61.07675743322119
+  }
+}
